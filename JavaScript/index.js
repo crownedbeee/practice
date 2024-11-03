@@ -57,47 +57,79 @@
 //     console.log("10 is greater than 40")
 // }
 
-let arr = [23, 45, 56, 73, 45, 23, 98];
-// let sorted = arr.sort((a,b)=>a-b)
-// let max=sorted.pop()
-let sum = 0;
-for(let i = 0; i < arr.length; i++) {
-sum += arr[i]
+// let arr = [23, 45, 56, 73, 45, 23, 98];
+// // let sorted = arr.sort((a,b)=>a-b)
+// // let max=sorted.pop()
+// let sum = 0;
+// for(let i = 0; i < arr.length; i++) {
+// sum += arr[i]
 
 
 
-}
-const average = sum / arr.length;
-console.log(sum)
-console.log(average)
-//console.log(max)
+// }
+// const average = sum / arr.length;
+// console.log(sum)
+// console.log(average)
+// //console.log(max)
 
-function getAverage(arr){
+// function getAverage(arr){
    
-    let sum = 0;
-    for(let i = 0; i < arr.length; i++) {
-    sum += arr[i]
+//     let sum = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//     sum += arr[i]
     
     
     
-    }
-    const average = sum / arr.length;
+//     }
+//     const average = sum / arr.length;
 
-return average
-} 
-console.log(getAverage([23, 45, 56, 73, 45, 23, 98]))
+// return average
+// } 
+// console.log(getAverage([23, 45, 56, 73, 45, 23, 98]))
 
-function getMax(arr){
-let sorted = arr.sort((a,b) => a-b)
-let max = sorted.pop()
-return max
+// function getMax(arr){
+// let sorted = arr.sort((a,b) => a-b)
+// let max = sorted.pop()
+// return max
+// }
+// console.log(getMax([23, 45, 56, 73, 45, 23, 98]))
+
+// function getSum(arr){
+//     let sum = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//     sum += arr[i]}
+// return sum
+// }
+// console.log(getSum([23, 45, 56, 73, 45, 23, 98]))
+
+//objects ()
+const person  = {
+    age: 25,
+    name: "Deborah" ,
+    gender: "Female",
+    country: "Nigeria"
+    gr 
+};
+
+for (let key in person){
+    console.log(key,person[key]);
 }
-console.log(getMax([23, 45, 56, 73, 45, 23, 98]))
+// console.log(person.age);
+// console.log(person["name"]);
 
-function getSum(arr){
-    let sum = 0;
-    for(let i = 0; i < arr.length; i++) {
-    sum += arr[i]}
-return sum
-}
-console.log(getSum([23, 45, 56, 73, 45, 23, 98]))
+// //adding property to object
+person.height = 170;
+// console.log(person);
+
+// delete person.gender
+// console.log(person )
+
+// const user= {
+//    username: "debeebest",
+//    email: "debeebest@gmail.com",
+//    address: {
+//     street: "123 main St",
+//     city: "anytown",
+//    }
+// };
+// console.log(user)
