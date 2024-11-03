@@ -103,22 +103,22 @@
 // console.log(getSum([23, 45, 56, 73, 45, 23, 98]))
 
 //objects ()
-const person  = {
-    age: 25,
-    name: "Deborah" ,
-    gender: "Female",
-    country: "Nigeria"
-    gr 
-};
+// const person  = {
+//     age: 25,
+//     name: "Deborah" ,
+//     gender: "Female",
+//     country: "Nigeria"
+    
+// };
 
-for (let key in person){
-    console.log(key,person[key]);
-}
+// for (let key in person){
+//     console.log(key,person[key]);
+// }
 // console.log(person.age);
 // console.log(person["name"]);
 
 // //adding property to object
-person.height = 170;
+//person.height = 170;
 // console.log(person);
 
 // delete person.gender
